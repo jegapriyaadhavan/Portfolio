@@ -20,10 +20,7 @@ h1,
 h2{
   margin: 0;
   font-weight: 400; 
-    -webkit-transform: rotate(0deg) translate(-50%, -50%);
-          transform: rotate(0deg) translate(-50%, -50%);
-  -webkit-transform-origin: 0 0;
-          transform-origin: 0 0;
+    
 }
   h1.lg-heading,
   h2.lg-heading{
@@ -58,47 +55,6 @@ main {
     overflow: hidden; }
     main#home h1 {
       margin-top: 20vh; }
-
-
-#root.clicked h1 {
-  animation: 5s myRotate infinite alternate-reverse;
-}
-
-#root.clicked p {
-  -webkit-animation: 5s myRotate infinite alternate;
-          animation: 5s myRotate infinite alternate;
-}
-
-@-webkit-keyframes myRotate {
-  0% {
-    -webkit-transform: rotate(0deg) translate(-50%, -50%);
-            transform: rotate(0deg) translate(-50%, -50%);
-  }
-  50% {
-    -webkit-transform: rotate(180deg) translate(-50%, -50%);
-            transform: rotate(180deg) translate(-50%, -50%);
-  }
-  100% {
-    -webkit-transform: rotate(360deg) translate(-50%, -50%);
-            transform: rotate(360deg) translate(-50%, -50%);
-  }
-}
-
-@keyframes myRotate {
-  0% {
-    -webkit-transform: rotate(0deg) translate(-50%, -50%);
-            transform: rotate(0deg) translate(-50%, -50%);
-  }
-  50% {
-    -webkit-transform: rotate(180deg) translate(-50%, -50%);
-            transform: rotate(180deg) translate(-50%, -50%);
-  }
-  100% {
-    -webkit-transform: rotate(360deg) translate(-50%, -50%);
-            transform: rotate(360deg) translate(-50%, -50%);
-  }
-}
-
 
 @media screen and (max-width: 768px) {
   main {
