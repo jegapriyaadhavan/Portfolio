@@ -7,7 +7,7 @@ function pageLoad() {
       tag: "h1",
     },
     {
-      tag: "p",
+      tag: "h2",
     }
   ];
 
